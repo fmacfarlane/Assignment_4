@@ -158,3 +158,4 @@ orig
 View(orig)
 #plot histogram
  plot(orig, col=" blue", border=" blue" ,main="ED score", density=100)
+hist(orig$w, main='ED scores', xlab='ED Score')
